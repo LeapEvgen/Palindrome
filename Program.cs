@@ -29,6 +29,8 @@ namespace Palindrome
     {
         static void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            
             Console.Write("Введіть слово для перевірки на паліндром: ");
             string userInput = Console.ReadLine();
 
